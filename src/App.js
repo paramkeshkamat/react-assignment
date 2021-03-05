@@ -1,12 +1,27 @@
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
+import Home from "./pages/Home";
+import Dashboard from "./pages/Dashboard";
+import Courses from "./pages/Courses";
+import Achievements from "./pages/Achievements";
+import Forum from "./pages/Forum";
+import ErrorPage from "./pages/ErrorPage";
 
 const App = () => {
   return (
-    <div>
+    <Router>
       <Navbar />
       <Sidebar />
-    </div>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/dashboard" component={Dashboard} />
+        <Route path="/courses" component={Courses} />
+        <Route path="/achievements" component={Achievements} />
+        <Route path="/forum" component={Forum} />
+        <Route path="*" component={ErrorPage} />
+      </Switch>
+    </Router>
   );
 };
 

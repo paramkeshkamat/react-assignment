@@ -1,0 +1,15 @@
+.ErrorPage {
+  display: grid;
+  place-items: center;
+  margin-top: 100px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.home-redirect-button {
+  color: slateblue;
+  text-decoration: underline;
+  cursor: pointer;
+}

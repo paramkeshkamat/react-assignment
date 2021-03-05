@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="user-details">
         <p>username</p>
         <div className="user-profile">
-          <img src="/no-profile-2.jpg" alt="profile" />
+          <img src="/no-profile.jpg" alt="profile" />
         </div>
         <IoChevronDownOutline />
       </div>
