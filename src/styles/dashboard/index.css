@@ -5,9 +5,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-gap: 15px;
+  grid-gap: 20px;
   height: 100px;
-  padding-bottom: 30px;
 }
 
 .Dashboard div:nth-child(4) {

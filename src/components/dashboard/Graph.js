@@ -16,7 +16,7 @@ const Graph = () => {
             labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
             datasets: [
               {
-                label: "label",
+                label: "Last week's progress",
                 data: [2, 3, 5, 2, 1, 3, 2],
                 borderColor: "#2c2c54",
                 borderWidth: "3",
