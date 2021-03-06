@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import Todo from "./Todo";
 import { FaTasks } from "react-icons/fa";
 import "../../styles/dashboard/TasksTodo.css";
-import Todo from "./Todo";
 
 const TasksTodo = () => {
   const [todos, setTodos] = useState([]);
