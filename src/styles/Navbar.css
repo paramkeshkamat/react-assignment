@@ -6,7 +6,7 @@
   padding-right: 50px;
 }
 
-.Navbar svg {
+.user-details svg {
   font-size: 30px;
   cursor: pointer;
   margin-top: 10px;
@@ -14,11 +14,11 @@
   border-radius: 50%;
   transition: all 0.2s linear;
 }
-.Navbar svg:hover {
+.user-details svg:hover {
   background-color: rgb(230, 230, 230);
 }
 
-.Navbar svg:first-child {
+.user-details svg:first-child {
   color: dodgerblue;
 }
 
@@ -26,7 +26,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 40px;
 }
 
 .user-details svg {
@@ -36,6 +35,7 @@
 .user-details p {
   color: dodgerblue;
   font-size: 18px;
+  margin-left: 40px;
 }
 
 .user-profile {
@@ -50,4 +50,22 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .Navbar {
+    padding: 0;
+    width: 90vw;
+    margin: auto;
+    justify-content: space-between;
+  }
+  .user-details p {
+    margin-left: 20px;
+  }
+  .hamburger svg {
+    color: dodgerblue;
+    font-size: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
 }

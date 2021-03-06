@@ -7,13 +7,17 @@ const Leaderboard = () => {
   const [users, setUsers] = useState([]);
   useEffect(() => {
     const getUsers = async () => {
-      const response = await axios.get(
-        "https://dummyapi.io/data/api/user?limit=5",
-        {
-          headers: { "app-id": "604335453486a039a846a452" },
-        }
-      );
-      setUsers(response.data.data);
+      try {
+        const response = await axios.get(
+          "https://dummyapi.io/data/api/user?limit=5",
+          {
+            headers: { "app-id": "604335453486a039a846a452" },
+          }
+        );
+        setUsers(response.data.data);
+      } catch (err) {
+        console.log(err.message);
+      }
     };
     getUsers();
   }, []);

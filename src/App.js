@@ -7,21 +7,24 @@ import Courses from "./pages/Courses";
 import Achievements from "./pages/Achievements";
 import Forum from "./pages/Forum";
 import ErrorPage from "./pages/ErrorPage";
+import { AppProvider } from "./context/context";
 
 const App = () => {
   return (
-    <Router>
-      <Navbar />
-      <Sidebar />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/dashboard" component={Dashboard} />
-        <Route exact path="/courses" component={Courses} />
-        <Route exact path="/achievements" component={Achievements} />
-        <Route exact path="/forum" component={Forum} />
-        <Route exact path="*" component={ErrorPage} />
-      </Switch>
-    </Router>
+    <AppProvider>
+      <Router>
+        <Navbar />
+        <Sidebar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/dashboard" component={Dashboard} />
+          <Route exact path="/courses" component={Courses} />
+          <Route exact path="/achievements" component={Achievements} />
+          <Route exact path="/forum" component={Forum} />
+          <Route exact path="*" component={ErrorPage} />
+        </Switch>
+      </Router>
+    </AppProvider>
   );
 };
 
