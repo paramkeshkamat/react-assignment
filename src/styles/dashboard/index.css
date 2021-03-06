@@ -6,6 +6,7 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 20px;
+  height: 100px;
 }
 
 .Dashboard div:nth-child(4) {
