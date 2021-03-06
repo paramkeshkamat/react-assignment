@@ -13,7 +13,7 @@ const MyCourses = () => {
         <Link to="/courses">SEE ALL</Link>
       </div>
       <div className="courses">
-        {courses.map((course, index) => {
+        {courses.map((course) => {
           const { courseId, subject, lessons, description } = course;
           return (
             <div className="course-card" key={courseId}>

@@ -17,9 +17,10 @@
   padding: 10px;
   text-align: center;
   transition: all 0.2s linear;
+  cursor: default;
 }
 .lesson h3 {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
 }
 .lesson p {
