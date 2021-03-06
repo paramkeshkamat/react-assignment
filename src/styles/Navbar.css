@@ -7,9 +7,15 @@
 }
 
 .Navbar svg {
-  font-size: 22px;
+  font-size: 30px;
   cursor: pointer;
   margin-top: 10px;
+  padding: 5px;
+  border-radius: 50%;
+  transition: all 0.2s linear;
+}
+.Navbar svg:hover {
+  background-color: rgb(230, 230, 230);
 }
 
 .Navbar svg:first-child {

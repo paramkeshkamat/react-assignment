@@ -12,7 +12,7 @@ const data = [
     subject: "Maths",
   },
   {
-    date: "June 10",
+    date: "March 12",
     time: "4:00 PM",
     lecture: "Chemistry",
     subject: "Science",
