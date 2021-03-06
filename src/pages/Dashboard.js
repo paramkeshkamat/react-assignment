@@ -15,6 +15,7 @@ const Dashboard = () => {
       <MyCourses />
       <HomeworkProgress />
       <Graph />
+      <br/>
     </div>
   );
 };
