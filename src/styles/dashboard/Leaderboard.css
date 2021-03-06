@@ -1,0 +1,41 @@
+.Leaderboard svg {
+  color: #ffdf00;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.leaderboard {
+  margin: 20px 0 10px 0;
+}
+
+.user {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.user img {
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  margin-right: 20px;
+}
+
+.user h3 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.user .rank {
+  background-color: dodgerblue;
+  display: grid;
+  place-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 15px;
+  position: relative;
+  left: 7px;
+}

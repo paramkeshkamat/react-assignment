@@ -6,24 +6,27 @@
   position: fixed;
   top: 0;
   left: 0;
-  padding: 20px;
 }
 
 .logo {
   color: #fff;
+  padding: 20px;
 }
 
 .sidebar-items {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .sidebar-items a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin: 25px 0;
+  padding: 20px;
 }
 
+.sidebar-items a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 .sidebar-items svg {
   margin-top: 2px;
   margin-right: 20px;

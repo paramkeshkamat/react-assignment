@@ -1,0 +1,33 @@
+.title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.TasksTodo svg {
+  margin-right: 10px;
+  font-size: 20px;
+  margin-top: 2px;
+  color: #2c2c54;
+}
+.title h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.todos {
+  margin: 10px 0;
+}
+
+.todo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.todo input {
+  margin-top: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}

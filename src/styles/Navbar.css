@@ -2,18 +2,18 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 15px 0;
+  height: 10vh;
   padding-right: 50px;
 }
 
 .Navbar svg {
   font-size: 22px;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .Navbar svg:first-child {
   color: dodgerblue;
-  margin-top: 2px;
 }
 
 .user-details {
@@ -24,7 +24,7 @@
 }
 
 .user-details svg {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .user-details p {
